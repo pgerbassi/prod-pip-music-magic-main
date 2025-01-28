@@ -43,7 +43,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center z-10">
         <AnimatedElement animation="fadeUp" delay={0.2}>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-prodpip-text">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-prodpip-text via-prodpip-highlight to-prodpip-text bg-clip-text text-transparent">
             {t('heroTitle')}
           </h1>
         </AnimatedElement>
